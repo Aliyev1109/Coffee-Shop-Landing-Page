@@ -1,0 +1,578 @@
+
+@media (max-width:1024px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    /*--- Header---*/
+    .menu-list {
+        gap: 30px;
+    }
+    .menu-list-item a {
+        font-size: 14px;
+    }
+    .header-buttons {
+        gap: 10px;
+    }
+
+    /*--- Footer ---*/
+    .footer-main {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .footer-box {
+        flex-basis: 45%;
+    }
+    .footer-text{
+        margin: 15px 0;
+    }
+    .footer-title {
+        font-size: 22px;
+    }
+    .footer-list-item a,
+    .footer-text-last {
+        font-size: 16px;
+    }
+
+    /*--- S1 ---*/
+    .section-hero-main {
+        max-width: 450px;
+    }
+    .section-hero-title {
+        font-size: 160px;
+    }
+    .section-hero-subtitle {
+        font-size: 20px;
+    }
+    .section-hero-text {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    /*--- S2 ---*/
+    .coffee-cup-inner {
+        gap: 10px;
+    }
+    .coffee-cup-inner img {
+        max-width: 400px;
+        max-height: 400px;
+        width: 100%;
+    }
+    .coffee-cup-title {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .coffee-cup-text {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    /*--- S3 ---*/
+    .coffee-style-top {
+        margin-bottom: 20px;
+    }
+    .coffee-style-title {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .coffee-style-text {
+        font-size: 18px;
+    }
+    .coffee-style-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 40px 20px;
+    }
+
+    /*--- S4 ---*/ 
+    .coffee-questions-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    .coffee-questions-title {
+        font-size: 24px;
+    }
+    .coffee-questions-text {
+        font-size: 18px;
+    }
+
+    /*--- S5 ---*/
+    .coffee-promo-main {
+        max-width: 500px;
+    }
+    .coffee-promo-title {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .coffee-promo-text {
+        font-size: 18px;
+        margin-bottom: 15px;
+    } 
+    .coffee-promo-inner img {
+        width: 300px;
+        height: 450px;
+    }
+
+    /*--- S6 ---*/
+    .coffee-feedback-main {
+        padding: 30px;
+    }
+    .coffee-feedback-center {
+        margin: 30px 0;
+    }
+    .coffee-feedback-btn {
+        padding: 20px;
+    }
+    .coffee-feedback-text {
+        margin: 0 30px;
+    }
+    .coffee-feedback-title {
+        font-size: 26px;
+    }
+    .coffee-feedback-bottom img {
+        top: 100px;
+        width: 90px;
+        height: 90px;
+    }
+
+    /*--- S7 ---*/
+    .coffee-subscribe-form {
+        max-width: 540px;
+    }
+    .input {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+    .form-btn{
+        font-size: 18px;
+    }
+}
+
+@media (max-width:768px) {
+    /*--- Header---*/
+    .section-hero {
+        position: relative;
+    }
+    .menu {
+        display: none;
+        position: relative;
+    }
+    .menu.active {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 80px 0 20px;
+        position: absolute;
+        top: -20px;
+        right: 0;
+        background: #1e1e1e;
+        min-height: 100vh;
+        width: 40%;
+    }
+    .menu-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+    .menu-list-item {
+        padding: 5px;
+    }
+    .menu-list-item:hover {
+        border-bottom: 1px solid #FFFFFF;
+    }
+    .menu-bars {
+        display: flex;
+    }
+    .menu-close {
+        display: flex;
+        position: absolute;
+        top: 30px;
+        right: 15px;
+    }
+    .header-buttons-dn {
+        display: flex;
+    }
+    .header-btn {
+        padding: 10px 12px;
+    }
+
+    /*--- Footer ---*/
+    .footer {
+        padding: 30px 0;
+    }
+    .footer-main {
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .footer-box {
+        flex-basis: 45%;
+    }
+    .footer-box .logo {
+        font-size: 36px;
+    }
+    .footer-text{
+        margin: 10px 0;
+    }
+    .footer-title {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-list {
+        gap: 15px;
+    }
+    .footer-list-item a,
+    .footer-text-last {
+        font-size: 14px;
+    }
+    .footer-text-last {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+
+    /*--- S1 ---*/
+    .section-hero-main {
+        max-width: 350px;
+    }
+    .section-hero-title {
+        font-size: 150px;
+    }
+    .section-hero-subtitle {
+        font-size: 18px;
+    }
+    .section-hero-text {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 10px;
+    }
+
+    /*--- S2 ---*/
+    .coffee-cup {
+        padding: 30px 0;
+    }
+    .coffee-cup-inner {
+        flex-direction: column;
+    }
+    .coffee-cup-title {
+        font-size: 32px;
+    }
+
+    /*--- S3 ---*/
+    .coffee-style-title {
+        font-size: 32px;
+    }
+    .coffee-style-box-title{
+        font-size: 20px;
+    }
+
+    /*--- S4 ---*/
+    .coffee-questions {
+        padding: 30px 0;
+    }
+    
+    /*--- S5 ---*/
+    .coffee-promo {
+        padding: 50px 0 30px;
+    }
+    .coffee-promo-inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .coffee-promo-main {
+        min-width: 100%;
+    }
+    .coffee-promo-title {
+        font-size: 32px;
+    }
+    .coffee-promo-inner img {
+        width: 250px;
+        height: 400px;
+    }
+
+    /*--- S6 ---*/
+    .coffee-feedback {
+        padding: 30px 0 60px;
+    }
+    .coffee-feedback-main {
+        padding: 20px;
+    }
+    .coffee-feedback-main-img {
+        width: 60px;
+        height: 50px;
+    }
+    .coffee-feedback-center {
+        margin: 20px 0;
+    }
+    .coffee-feedback-btn {
+        padding: 15px;
+    }
+    .coffee-feedback-text {
+        margin: 0 20px;
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .coffee-feedback-title {
+        font-size: 22px;
+        margin-bottom: 5px;
+    }
+    .coffee-feedback-bottom img {
+        top: 80px;
+        width: 70px;
+        height: 70px;
+    }
+
+    /*--- S7 ---*/
+    .coffee-subscribe {
+        padding: 30px 0;
+    }
+    .coffee-subscribe-form {
+        max-width: 440px;
+    }
+    .input {
+        font-size: 16px;
+        padding: 12px 15px;
+    }
+    .form-btn{
+        font-size: 16px;
+    }
+}
+
+@media (max-width:520px) {
+    /*--- Header---*/
+    .logo {
+        font-size: 30px;
+    }
+    .header-btn {
+        padding: 8px 10px;
+    }
+    .menu.active {
+        width: 45%;
+    }
+    .menu-close {
+        top: 25px;
+    }
+    .menu-close i,
+    .menu-bars i {
+    font-size: 26px;
+   }
+
+   /*--- Footer ---*/
+   .footer-main {
+    justify-content: space-between;
+    }
+
+    /*--- S1 ---*/
+    .section-hero-main {
+        max-width: 300px;
+    }
+    .section-hero-title {
+        font-size: 130px;
+    }
+    .section-hero-subtitle {
+        font-size: 16px;
+    }
+    .section-hero-text {
+        font-size: 14px;
+    }
+
+    /*--- S3 ---*/
+    .coffee-style-main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .coffee-style-box {
+        min-width: 300px;
+    }
+    .coffee-style-box img {
+        min-width: 300px;
+    }
+    .section-btn {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+    
+    /*--- S4 ---*/
+    .coffee-questions-main {
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 20px;
+    }
+    .coffee-questions-box {
+        gap: 15px;
+        padding: 20px 30px;
+        min-width: 300px;
+    }
+    .coffee-questions-bottom-title {
+        font-size: 26px;
+    }
+}
+
+@media (max-width:480px) {
+    /*--- Header---*/
+    .logo {
+        font-size: 24px;
+    }
+    .menu.active {
+        width: 60%;
+    }
+    .header-buttons{
+        gap: 5px;
+    }
+    /*--- Footer ---*/
+    .footer-main {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .footer-box {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .footer-box .logo {
+        font-size: 28px;
+    }
+    .footer-text{
+        margin: 10px 0;
+        font-size: 13px;
+    }
+    .social {
+        display: flex;
+        justify-content: center;
+    }
+    .footer-title {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .footer-list {
+        gap: 10px;
+    }
+    .footer-list-item a,
+    .footer-text-last {
+        font-size: 13px;
+    }
+    .footer-text-last {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+
+    /*--- S2 ---*/
+    .coffee-cup-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .coffee-cup-text {
+        font-size: 16px;
+        margin-bottom: 10px;
+        line-height: 28px;
+    }
+
+    /*--- S3 ---*/
+    .coffee-style-box {
+        min-width: unset;
+    }
+    .coffee-style-box img {
+        min-width: unset;
+    }
+    .coffee-style-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .coffee-style-text {
+        font-size: 16px;
+    }
+    .coffee-style-box-bottom {
+        padding: 15px 0 30px;
+    }
+    .coffee-style-box-title{
+        font-size: 18px;
+    }
+    .coffee-style-box-text {
+        font-size: 14px;
+    }
+    .coffee-style-price {
+        font-size: 16px;
+    }
+
+    /*--- S4 ---*/
+    .coffee-questions-main {
+        margin-bottom: 15px;
+    }
+    .coffee-questions-box {
+        min-width: unset
+    }
+    .coffee-questions-title {
+        font-size: 20px;
+    }
+    .coffee-questions-text {
+        font-size: 16px;
+    }
+    .coffee-questions-bottom {
+        gap: 15px;
+    }
+    .coffee-questions-bottom-title {
+        font-size: 22px;
+    }
+
+     /*--- S5 ---*/
+     .coffee-promo {
+        padding: 30px 0 20px;
+    }
+    .coffee-promo-title {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    .coffee-promo-text {
+        font-size: 16px;
+        margin-bottom: 10px;
+        line-height: 28px;
+    }
+
+    /*--- S6 ---*/
+    .coffee-feedback-main {
+        padding: 10px;
+        margin: 0 10px;
+    }
+    .coffee-feedback-main-img {
+        width: 50px;
+        height: 40px;
+    }
+    .coffee-feedback-center {
+        margin: 10px 0;
+    }
+    .coffee-feedback-btn {
+        padding: 10px;
+    }
+    .left-btn {
+        left: -20px;
+    }
+    .right-btn {
+        right: -20px;
+    }
+    .coffee-feedback-text {
+        margin: 0 10px;
+        font-size: 14px;
+        line-height: 28px;
+    }
+    .coffee-feedback-title {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .coffee-feedback-bottom img {
+        top: 75px;
+        width: 60px;
+        height: 60px;
+    }
+
+    /*--- S7 ---*/
+    .input {
+        font-size: 14px;
+        padding: 10px 12px;
+    }
+    .form-btn{
+        font-size: 14px;
+    }
+    .form-btn{
+        padding: 0 12px;
+    }
+}
